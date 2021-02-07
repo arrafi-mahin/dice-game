@@ -36,7 +36,7 @@ const init = function () {
   score1El.textContent = 0;
   Current0El.textContent = 0;
   Current1El.textContent = 0;
-
+  diceEl.src = `dice-${1}.png`;
   activePlayer = 0;
   document
     .querySelector(`.player--${activePlayer}`)
